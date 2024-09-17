@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="MemoryGameStyles.css">
+</head>
+<body>
+
+    <div class="menu">
+
+        <div class="heading">
+            <h1>Memory Game</h1>
+        </div>
+        <p>Levels :</p>
+        <div class="menu-container">
+            <button id="first-levelBtn">2x2</button>
+            <button id="second-levelBtn">2x3</button>  
+            <button id="third-levelBtn">3x4</button>
+        </div>
+
+    </div>
+    
+    <div class="first-level">
+
+        <div class="attempts-time">
+            <p id="firstLevelTime" class="time">Time Left: </p>    
+            <p id="firstLevelAttempts" class="attempts">Attempts left: </p>
+        </div>
+        <div class="first-level-wrapper">
+            <div class="first-level-container">
+                <div class="first-row">
+                    <div id="first-level-cards" class="Unflipped"></div>
+                    <div id="first-level-cards" class="Unflipped"></div>
+                </div>
+                <div class="second-row">
+                    <div id="first-level-cards" class="Unflipped"></div>
+                    <div id="first-level-cards" class="Unflipped"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="second-level">
+
+        <div class="attempts-time">
+            <p id="secondLevelTime" class="time">Time Left: </p>
+            <p id="secondLevelAttempts" class="attempts">Attempts left: </p>
+        </div>
+        <div class="second-level-wrapper">
+            <div class="second-level-container">
+                <div class="first-row">
+                    <div id="second-level-cards" class="Unflipped"></div>
+                    <div id="second-level-cards" class="Unflipped"></div>
+                    <div id="second-level-cards" class="Unflipped"></div>
+                </div>
+                <div class="second-row">
+                    <div id="second-level-cards" class="Unflipped"></div>
+                    <div id="second-level-cards" class="Unflipped"></div>
+                    <div id="second-level-cards" class="Unflipped"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="third-level">
+
+        <div class="attempts-time">
+            <p id="thirdLevelTime" class="time">Time Left: </p>
+            <p id="thirdLevelAttempts" class="attempts">Attempts left: </p>
+        </div>
+        <div class="third-level-wrapper">
+            <div class="third-level-container">
+                <div class="first-row">
+                    <div id="third-level-cards" class="Unflipped"></div>
+                    <div id="third-level-cards" class="Unflipped"></div>
+                    <div id="third-level-cards" class="Unflipped"></div>
+                    <div id="third-level-cards" class="Unflipped"></div>
+                </div>
+                <div class="second-row">
+                    <div id="third-level-cards" class="Unflipped"></div>
+                    <div id="third-level-cards" class="Unflipped"></div>
+                    <div id="third-level-cards" class="Unflipped"></div>
+                    <div id="third-level-cards" class="Unflipped"></div>
+                </div>
+                <div class="third-row">
+                    <div id="third-level-cards" class="Unflipped"></div>
+                    <div id="third-level-cards" class="Unflipped"></div>
+                    <div id="third-level-cards" class="Unflipped"></div>
+                    <div id="third-level-cards" class="Unflipped"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="MemoryGameJs.js"></script>
+</body>
+</html>
